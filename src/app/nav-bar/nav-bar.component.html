@@ -1,0 +1,18 @@
+<div>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link mr-2" [routerLink]="['/']">Home</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Calculadora de Juros</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" [routerLink]="['/juros-simples']" routerLinkActive="$router_link-active$">Juros Simples</a>
+          <a class="dropdown-item" [routerLink]="['/juros-composto']">Juros Composto</a>
+        </div>
+      </li>
+
+    </ul>
+  </nav>
+</div>
